@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <center>
+        <h1>Student Registration Form</h1>
+    </center>
+    <table align="center">
+        <tr>
+            <th width="200"> <br>Roll.no:</th>
+            <td><br><input type="text" name="roll.no" maxlength="10" size="35"></td>
+        </tr>
+        <tr>
+            <th> <br>Student Name:</th>
+            <td><br><input type="text" name="fname" placeholder="First Name" size="15"> - <input type="text"
+                    name="lname" placeholder="Last Name" size="13"></td>
+        </tr>
+        <tr>
+            <th> <br>Father's Name:</th>
+            <td><br><input type="text" name="fathername" size="35"></td>
+        </tr>
+        <tr>
+            <th> <br>Date OF Birth:</th>
+            <td><br><input type="text" name="day" placeholder="Day" size="2" maxlength="2"> - <input type="text"
+                    name="month" placeholder="Month" size="2" maxlength="2"> - <input type="text" name="year"
+                    placeholder="Year" size="3" maxlength="4"> (DD/MM/YY)</td>
+        </tr>
+        <tr>
+            <th><br>Mobile.no:</th>
+            <td><br><input type="text" name="country_code" maxlength="3" size="1" placeholder="+92"> - <input
+                    type="text" name="num" maxlength="10" size="27"></td>
+        </tr>
+        <tr>
+            <th> <br>Email id:</th>
+            <td><br><input type="email" name="user_email" size="35"></td>
+        </tr>
+        <tr>
+            <th><br>Password:</th>
+            <td><br><input type="password" name="user_password" size="35"></td>
+        </tr>
+        <tr>
+            <th><br>Gender:</th>
+            <td><br><input type="radio" name="gender" value="male" checked>Male <input type="radio" name="gender"
+                    value="female">Female</td>
+        </tr>
+        <tr>
+            <th><br>Department:</th>
+            <td><br><input type="checkbox" name="sub" value="cse">CSE <input type="checkbox" name="sub" value="it">IT
+                <input type="checkbox" name="sub" value="ece">ECE <input type="checkbox" name="sub" value="civil">Civil
+                <input type="checkbox" name="sub" value="mech">Mech
+            </td>
+        </tr>
+        <tr>
+            <th><br>Course:</th>
+            <td><br><select name="courses">
+                    <option disabled selected>-----Select current course----</option>
+                    <option value="be">B.E. (Bachelor of Engineering)</option>
+                    <option value="btech">B.Tech (Bachelor of Technology)</option>
+                    <option value="mtech">M.Tech (Master of Technology)</option>
+                    <option value="diploma">Diploma in Engineering</option>
+                </select></td>
+        </tr>
+        <tr>
+            <th><br>Student photo:</th>
+            <td><br><input type="file" name="user_file"></td>
+        </tr>
+        <tr>
+            <th><br>City:</th>
+            <td><br><input type="text" name="city" size="35"></td>
+        </tr>
+        <tr>
+            <th><br>Address:</th>
+            <td><br><textarea name="user_address" cols="35" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" name="register_button" value="Register"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
